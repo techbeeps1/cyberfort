@@ -54,7 +54,7 @@ export function SolutionPartnerCards() {
           {solutionCards.map((card) => (
             <div
               key={card.id}
-              className="bg-dark-blue w-full p-[40px] lg:p-[60px]"
+              className="bg-dark-blue w-full p-[30px] lg:p-[60px]"
             >
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-12 xl:gap-16 items-center">
                 {/* Left Column: Partner Info */}

@@ -1,0 +1,12 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="stroke0_33_137" fill="white">
+<path d="M22.5 8L26.5058 16.9865L36.2903 18.0193L28.9814 24.606L31.0229 34.2307L22.5 29.315L13.9771 34.2307L16.0185 24.606L8.70968 18.0193L18.4942 16.9865L22.5 8Z"/>
+</mask>
+<path d="M22.5 8L26.5058 16.9865L36.2903 18.0193L28.9814 24.606L31.0229 34.2307L22.5 29.315L13.9771 34.2307L16.0185 24.606L8.70968 18.0193L18.4942 16.9865L22.5 8Z" stroke-width="4" stroke="white" mask="url(#stroke0_33_137)"/>
+<path d="M22.5 8L26.5058 16.9865L36.2903 18.0193L28.9814 24.606L31.0229 34.2307L22.5 29.315L13.9771 34.2307L16.0185 24.606L8.70968 18.0193L18.4942 16.9865L22.5 8Z" stroke-width="4" stroke="white" mask="url(#stroke0_33_137)"/>
+<use xlink:href="#stroke1_33_137" stroke="white"/>
+<use xlink:href="#stroke1_33_137" stroke="white"/>
+<defs>
+<path id="stroke1_33_137" d="M42 22.5C42 33.2696 33.2696 42 22.5 42C11.7304 42 3 33.2696 3 22.5C3 11.7304 11.7304 3 22.5 3C33.2696 3 42 11.7304 42 22.5Z" stroke-width="2"/>
+</defs>
+</svg>

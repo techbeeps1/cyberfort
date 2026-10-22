@@ -7,7 +7,7 @@ export function Hero() {
       {/* Layer 1: Base Rock Texture */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/bg-img.jpg"
+          src="/home-bg-img.jpg"
           alt="CyberFort Hero Background"
           width={1728}
           height={957}
@@ -20,7 +20,7 @@ export function Hero() {
       {/* Layer 2: Pattern Overlay (Concentric Shield Arcs Watermark on Right) */}
       <div className="absolute right-0 top-0 z-1 h-full pointer-events-none select-none hidden lg:block">
         <Image
-          src="/right-pettern.png"
+          src="/home-right-pettern.png"
           alt="CyberFort Pattern"
           width={937}
           height={944}

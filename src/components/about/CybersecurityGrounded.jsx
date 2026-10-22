@@ -15,12 +15,12 @@ export function CybersecurityGrounded() {
             </h2>
 
             {/* Paragraph 1 */}
-            <p className="text-[#1e1e1e] text-[15px] sm:text-[16px] lg:text-[18px] leading-[26px] sm:leading-[28px] font-medium mb-4 sm:mb-6">
+            <p className="text-[#1e1e1e] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] font-medium mb-4 sm:mb-6">
               Cyberfort helps organisations address their cybersecurity needs through hands-on experience in security operations, incident response, vulnerability management, and enterprise security technology.
             </p>
 
             {/* Paragraph 2 */}
-            <p className="text-[#1e1e1e] text-[15px] sm:text-[16px] lg:text-[18px] leading-[26px] sm:leading-[28px] font-medium">
+            <p className="text-[#1e1e1e] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] font-medium">
               Led by cybersecurity professional Saeed AlFahim, Cyberfort takes a practical approach to understanding each organisation&apos;s security environment and identifying technology suited to its requirements.
             </p>
           </div>

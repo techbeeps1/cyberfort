@@ -9,18 +9,17 @@ export function SecuritySolutionsSelected() {
           <div className="flex flex-col justify-center">
             {/* Heading */}
             <h2 className="text-dark-blue text-[32px] sm:text-[40px] lg:text-[50px] font-normal leading-[40px] sm:leading-[46px] lg:leading-[52px] tracking-tight mb-[30px] sm:mb-[40px] lg:mb-[50px]">
-              Security solutions selected
-              <br className="hidden sm:inline" />{" "}
+              Security solutions selected              
               for your organisation
             </h2>
 
             {/* Paragraph 1 */}
-            <p className="text-[#1e1e1e] text-[15px] sm:text-[16px] lg:text-[18px] leading-[26px] sm:leading-[28px] font-medium mb-4 sm:mb-6">
+            <p className="text-[#1e1e1e] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] font-medium mb-4 sm:mb-6">
               Security solutions selected for your organisation. Cyberfort works with established security technology providers to help organisations identify and implement solutions suited to their specific requirements.
             </p>
 
             {/* Paragraph 2 */}
-            <p className="text-[#1e1e1e] text-[15px] sm:text-[16px] lg:text-[18px] leading-[26px] sm:leading-[28px] font-medium">
+            <p className="text-[#1e1e1e] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] font-medium">
               We evaluate technology based on your environment, risks, and operational priorities, helping you find the right tools without adding unnecessary complexity.
             </p>
           </div>

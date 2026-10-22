@@ -90,7 +90,7 @@ export function Faq({ className = "" }) {
                   }`}
                 >
                   <div className="overflow-hidden">
-                    <div className="px-5 sm:px-6 pb-5 sm:pb-6 text-[#4B4D50] text-[15px] sm:text-[16px] leading-[26px] border-t border-black/5 pt-3">
+                    <div className="px-5 sm:px-6 pb-5 sm:pb-6 text-[#4B4D50] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] border-t border-black/5 pt-3">
                       <p>{item.answer}</p>
                     </div>
                   </div>

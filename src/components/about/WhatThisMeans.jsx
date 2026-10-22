@@ -16,12 +16,12 @@ export function WhatThisMeans() {
             </h2>
 
             {/* Paragraph 1 */}
-            <p className="text-[#1e1e1e] text-[15px] sm:text-[16px] lg:text-[18px] leading-[26px] sm:leading-[28px] font-medium mb-4 sm:mb-6">
+            <p className="text-[#1e1e1e] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] font-medium mb-4 sm:mb-6">
               Having managed cybersecurity from within complex organisations, we understand the difference between a solution that performs well in a presentation and one that delivers value in a live business environment.
             </p>
 
             {/* Paragraph 2 */}
-            <p className="text-[#1e1e1e] text-[15px] sm:text-[16px] lg:text-[18px] leading-[26px] sm:leading-[28px] font-medium">
+            <p className="text-[#1e1e1e] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] font-medium">
               This experience informs Cyberfort&apos;s approach to every engagement: understand the environment, identify the risks, and establish which technology is suitable for the organisation&apos;s requirements.
             </p>
           </div>

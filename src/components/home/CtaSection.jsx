@@ -59,17 +59,17 @@ export function CtaSection({ className = "" }) {
           {/* Inner Content */}
           <div className="relative z-10 flex flex-col items-start max-w-[880px]">
             {/* Main Headline */}
-            <h2 className="text-[32px] sm:text-[40px] lg:text-[50px] leading-[40px] sm:leading-[46px] lg:leading-[56px] font-normal text-white mb-3 sm:mb-4">
+            <h2 className="text-[35px] lg:text-[36px] leading-[40px] font-normal text-white mb-3 sm:mb-4">
               Let’s talk about<br className="sm:hidden" /> your security.
             </h2>
 
             {/* Subtitle Description */}
-            <p className="text-[15px] sm:text-[16px] lg:text-[18px] leading-[26px] sm:leading-[28px] text-white/95 font-normal mb-5 sm:mb-6 max-w-none">
+            <p className="text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] text-white font-normal mb-5 sm:mb-6 max-w-none">
               Stop managing fragmented tools. Partner with experts who build comprehensive defenses.
             </p>
 
             {/* Bullet Points with Checkmarks */}
-            <ul className="space-y-2 sm:space-y-2.5 mb-6 sm:mb-8 text-[14px] sm:text-[16px] leading-[24px] sm:leading-[28px] text-white font-normal">
+            <ul className="space-y-2 sm:space-y-2.5 mb-6 sm:mb-8 text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] text-white font-normal">
               {bulletPoints.map((point) => (
                 <li key={point} className="flex items-center gap-3">
                   <span className="text-white text-base select-none leading-none">✓</span>

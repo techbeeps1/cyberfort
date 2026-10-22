@@ -9,7 +9,7 @@ const partners = [
     logoHeightClass: "h-[28px] sm:h-[34px]",
   },
   {
-    category: "Dark Web Intelligence",
+    category: "Dark Web Monitoring",
     logo: "/paranoid-logo.png",
     alt: "ParanoidLab",
     logoHeightClass: "h-[26px] sm:h-[32px]",
@@ -49,7 +49,7 @@ export function TheEngine() {
         </h2>
 
         {/* Subtitle Description */}
-        <p className="text-[16px] sm:text-[18px] leading-[32px] text-[#B0BFDD] font-normal max-w-[680px] mb-12 lg:mb-16">
+        <p className="text-[16px] lg:text-[18px] leading-[28px] lg:leading-[32px] text-[#B0BFDD] font-normal max-w-[680px] mb-12 lg:mb-16">
           We work directly with selected technology providers, ensuring faster communication, support, and access to their expertise.
         </p>
 

@@ -53,7 +53,7 @@ export function ContactFormSection() {
               <h3 className="text-dark-blue text-[20px] font-medium mb-3">
                 Cyberfort Headquarters
               </h3>
-              <p className="text-[#4B4D50] text-[15px] leading-[24px] mb-5">
+              <p className="text-[#4B4D50] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] mb-5">
                 Unit 430, Khalifa Bin Shakbut Street, Abu Dhabi, United Arab Emirates
               </p>
 
@@ -76,7 +76,7 @@ export function ContactFormSection() {
               <h2 className="text-dark-blue text-[28px] sm:text-[34px] font-medium leading-[36px] sm:leading-[42px] tracking-tight mb-3">
                 Get in touch
               </h2>
-              <p className="text-[#4B4D50] text-[15px] sm:text-[16px] leading-[26px]">
+              <p className="text-[#4B4D50] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px]">
                 Speak directly with our team to discuss your security posture and evaluate technology solutions.
               </p>
             </div>
@@ -89,7 +89,7 @@ export function ContactFormSection() {
                 <h3 className="text-dark-blue text-[20px] font-medium mb-2">
                   Message Sent Successfully
                 </h3>
-                <p className="text-[#4B4D50] text-[15px] leading-[24px]">
+                <p className="text-[#4B4D50] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px]">
                   Thank you for reaching out. A Cyberfort security specialist will review your inquiry and get in touch with you shortly.
                 </p>
                 <button

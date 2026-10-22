@@ -68,7 +68,7 @@ export function Hero() {
             </h1>
 
             {/* Subtitle / Description */}
-            <p className="text-[16px] md:text-[18px] lg:text-[20px] leading-[25px] md:leading-[30px] lg:leading-[32px] font-normal text-white text-center lg:text-left max-w-[370px] sm:max-w-[540px] md:max-w-[680px] lg:max-w-[700px]">
+            <p className="text-[16px] lg:text-[18px] leading-[26px] lg:leading-[32px] font-normal text-white text-center lg:text-left max-w-[370px] sm:max-w-[540px] md:max-w-[680px] lg:max-w-[700px]">
               We combine industry-leading tools with bespoke strategies to detect, manage, and neutralize threats before they impact your business.
             </p>
 

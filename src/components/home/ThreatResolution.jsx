@@ -14,7 +14,7 @@ export function ThreatResolution() {
         </h2>
 
         {/* Subtitle Description */}
-        <p className="text-[16px] sm:text-[18px] lg:text-[20px] leading-[26px] sm:leading-[32px] font-normal text-white text-center max-w-[360px] sm:max-w-[820px]">
+        <p className="text-[16px] lg:text-[18px] leading-[26px] sm:leading-[32px] font-normal text-white text-center max-w-[360px] sm:max-w-[820px]">
           Our direct technology partnerships eliminate the middleman, ensuring rapid deployment and decisive action when every second counts.
         </p>
       </div>

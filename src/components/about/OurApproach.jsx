@@ -46,7 +46,7 @@ export function OurApproach() {
               </h3>
 
               {/* Step Description */}
-              <p className="text-white text-[15px] sm:text-[16px] lg:text-[18px] leading-[26px] sm:leading-[28px] lg:leading-[30px]">
+              <p className="text-white text-[16px] lg:text-[18px] leading-[26px] lg:leading-[30px]">
                 {step.description}
               </p>
             </div>

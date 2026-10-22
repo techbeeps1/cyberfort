@@ -52,7 +52,7 @@ export function TheProcess() {
               </div>
 
               {/* Step Description */}
-              <p className="text-[16px] leading-[26px] sm:leading-[30px] font-medium text-dark-blue">
+              <p className="text-[16px] lg:text-[18px] leading-[26px] lg:leading-[30px] font-medium text-dark-blue">
                 {step.description}
               </p>
             </div>

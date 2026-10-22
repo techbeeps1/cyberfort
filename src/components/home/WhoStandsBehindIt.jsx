@@ -36,12 +36,12 @@ export function WhoStandsBehindIt() {
             </h3>
 
             {/* Title / Role */}
-            <p className="text-[16px] leading-[31px] font-medium text-dark-blue mt-1 mb-6">
+            <p className="text-[16px] lg:text-[18px] leading-[26px] lg:leading-[31px] font-medium text-dark-blue mt-1 mb-6">
               CEO, Cyberfort
             </p>
 
             {/* Description Paragraphs */}
-            <div className="space-y-4 text-[16px] leading-[28px] text-dark-blue font-normal max-w-[780px] mb-[50px]">
+            <div className="space-y-4 text-[16px] lg:text-[18px] leading-[26px] lg:leading-[30px] text-dark-blue font-normal max-w-[780px] mb-[50px]">
               <p>
                 With nearly a decade of hands-on cybersecurity experience, Saeed AlFahim has worked across security operations, incident response, vulnerability management, and enterprise security technology.
               </p>

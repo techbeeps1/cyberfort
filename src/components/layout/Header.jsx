@@ -1,24 +1,24 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+const emptySubscribe = () => () => {};
+
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
+  const mounted = useSyncExternalStore(emptySubscribe, () => true, () => false);
   const pathname = usePathname();
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const [prevPath, setPrevPath] = useState(pathname);
 
   // Close mobile menu on route change
-  useEffect(() => {
+  if (prevPath !== pathname) {
+    setPrevPath(pathname);
     setMobileMenuOpen(false);
-  }, [pathname]);
+  }
 
   const navLinks = [
     { label: "Home", href: "/", active: pathname === "/" },

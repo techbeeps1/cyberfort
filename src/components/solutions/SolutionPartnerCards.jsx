@@ -76,12 +76,12 @@ export function SolutionPartnerCards() {
                   </h3>
 
                   {/* Paragraph 1 (font-normal, 18px, leading 28px) */}
-                  <p className="text-white text-[16px] sm:text-[18px] leading-[28px] font-normal mb-4 max-w-[580px]">
+                  <p className="text-white text-[16px] lg:text-[18px] leading-[28px] font-normal mb-4 max-w-[580px]">
                     {card.paragraph1}
                   </p>
 
                   {/* Paragraph 2 (font-normal, 18px, leading 28px, 40px gap to button) */}
-                  <p className="text-white text-[16px] sm:text-[18px] leading-[28px] font-normal mb-[40px] max-w-[580px]">
+                  <p className="text-white text-[16px] lg:text-[18px] leading-[28px] font-normal mb-[40px] max-w-[580px]">
                     {card.paragraph2}
                   </p>
 

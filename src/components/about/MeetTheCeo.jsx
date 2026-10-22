@@ -61,12 +61,12 @@ export function MeetTheCeo() {
             </h3>
 
             {/* Title / Role */}
-            <p className="text-[14px] sm:text-[16px] leading-[24px] sm:leading-[31px] font-medium text-white/80 mt-1 mb-4 sm:mb-6">
+            <p className="text-[16px] lg:text-[18px] leading-[26px] lg:leading-[31px] font-medium text-white/80 mt-1 mb-4 sm:mb-6">
               CEO, Cyberfort
             </p>
 
             {/* Bio Paragraph */}
-            <p className="text-[15px] sm:text-[16px] leading-[25px] sm:leading-[28px] text-white/90 font-normal mb-6 sm:mb-8">
+            <p className="text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] text-white/90 font-normal mb-6 sm:mb-8">
               He has nearly a decade of hands-on cybersecurity experience across security operations, incident response, vulnerability management, digital forensics, and enterprise security technology. His work includes evaluating and implementing NDR, EDR, SIEM, email security, user monitoring, and cloud security solutions, as well as leading security programmes and vulnerability management initiatives.
             </p>
 
@@ -76,7 +76,7 @@ export function MeetTheCeo() {
                 Key highlights
               </h4>
 
-              <ul className="space-y-2.5 sm:space-y-3 text-[14px] sm:text-[16px] leading-[24px] sm:leading-[28px] text-white/90 font-normal">
+              <ul className="space-y-2.5 sm:space-y-3 text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] text-white/90 font-normal">
                 {highlights.map((item, index) => (
                   <li key={index} className="flex items-start gap-2.5">
                     <span className="text-white select-none leading-[24px] sm:leading-[28px]">•</span>

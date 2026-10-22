@@ -14,7 +14,7 @@ export function ZeroSecurityBlindSpots() {
         </h2>
 
         {/* Subtitle Description */}
-        <p className="text-[16px] sm:text-[18px] lg:text-[20px] leading-[26px] sm:leading-[32px] font-normal text-white text-center max-w-[360px] sm:max-w-[960px]">
+        <p className="text-[16px] lg:text-[18px] leading-[26px] sm:leading-[32px] font-normal text-white text-center max-w-[360px] sm:max-w-[960px]">
           By unifying behavioral analytics, dark web monitoring, and active threat intelligence, we eliminate the gaps left by fragmented, legacy tools to secure your entire digital footprint.
         </p>
       </div>

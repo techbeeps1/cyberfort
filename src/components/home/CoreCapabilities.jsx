@@ -53,7 +53,7 @@ export function CoreCapabilities() {
               <h3 className="text-[25px] sm:text-[26px] lg:text-[30px] font-normal leading-[32px] sm:leading-[40px] mb-[30px] sm:mb-6">
                 {capabilities[0].title}
               </h3>
-              <ul className="space-y-1.5 text-[#9DBEFF] text-[15px] sm:text-[16px] leading-[24px] sm:leading-[32px] font-normal">
+              <ul className="space-y-1.5 text-[#9DBEFF] text-[16px] lg:text-[18px] leading-[32px] font-normal">
                 {capabilities[0].points.map((point) => (
                   <li key={point} className="flex items-start gap-2.5">
                     <span className="text-[#9DBEFF] leading-[24px] sm:leading-[32px] select-none">•</span>
@@ -78,7 +78,7 @@ export function CoreCapabilities() {
               <h3 className="text-[25px] sm:text-[26px] lg:text-[30px] font-normal leading-[32px] sm:leading-[40px] mb-[30px] sm:mb-6">
                 {capabilities[1].title}
               </h3>
-              <ul className="space-y-1.5 text-[#9DBEFF] text-[15px] sm:text-[16px] leading-[24px] sm:leading-[32px] font-normal">
+              <ul className="space-y-1.5 text-[#9DBEFF] text-[16px] lg:text-[18px] leading-[32px] font-normal">
                 {capabilities[1].points.map((point) => (
                   <li key={point} className="flex items-start gap-2.5">
                     <span className="text-[#9DBEFF] leading-[24px] sm:leading-[32px] select-none">•</span>
@@ -103,7 +103,7 @@ export function CoreCapabilities() {
               <h3 className="text-[25px] sm:text-[26px] lg:text-[30px] font-normal leading-[32px] sm:leading-[40px] mb-[30px] sm:mb-6">
                 {capabilities[2].title}
               </h3>
-              <ul className="space-y-1.5 text-[#9DBEFF] text-[15px] sm:text-[16px] leading-[24px] sm:leading-[32px] font-normal">
+              <ul className="space-y-1.5 text-[#9DBEFF] text-[16px] lg:text-[18px] leading-[32px] font-normal">
                 {capabilities[2].points.map((point) => (
                   <li key={point} className="flex items-start gap-2.5">
                     <span className="text-[#9DBEFF] leading-[24px] sm:leading-[32px] select-none">•</span>

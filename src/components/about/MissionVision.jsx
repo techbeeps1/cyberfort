@@ -31,7 +31,7 @@ export function MissionVision() {
           </div>
 
           {/* Mission Description */}
-          <p className="text-white text-[15px] sm:text-[16px] leading-[26px] sm:leading-[28px] font-normal">
+          <p className="text-white text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] font-normal">
             Cyberfort helps UAE organisations select, deploy, and support security technologies aligned with their risks and regulatory obligations. Led by practitioners who have defended government and investment institutions from within, we validate every solution before we recommend it, and stay accountable long after deployment.
           </p>
         </div>
@@ -44,7 +44,7 @@ export function MissionVision() {
           </h2>
 
           {/* Vision Description */}
-          <p className="text-white text-[15px] sm:text-[16px] leading-[26px] sm:leading-[28px] font-normal">
+          <p className="text-white text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] font-normal">
             To be the UAE&apos;s most trusted partner for turning cybersecurity investment into measurable protection.
           </p>
         </div>

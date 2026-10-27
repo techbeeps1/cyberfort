@@ -31,7 +31,7 @@ export function WhoStandsBehindIt() {
           {/* Right Column: Bio Content */}
           <div className="flex flex-col items-start">
             {/* Name */}
-            <h3 className="text-[24px] sm:text-[28px] leading-[36px] font-semibold text-dark-blue">
+            <h3 className="text-[28px] leading-[36px] font-semibold text-dark-blue">
               Saeed AlFahim
             </h3>
 
@@ -52,7 +52,7 @@ export function WhoStandsBehindIt() {
 
             {/* Learn More Button */}
             <Link
-              href="#about"
+              href="/about"
               className="inline-flex items-center justify-center border border-green bg-transparent hover:bg-green hover:text-white active:scale-[0.98] text-dark-blue font-normal text-[16px] leading-[32px] text-center px-[30px] py-[15px] transition-all duration-200"
             >
               Learn more

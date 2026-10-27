@@ -11,50 +11,49 @@ export function CtaSection({ className = "" }) {
   return (
     <section className={`w-full pt-10 sm:pt-14 lg:pt-20 pb-0 ${className}`}>
       <div className="container">
-        <div
-          className="relative w-full overflow-hidden py-9 sm:py-11 lg:py-12 px-6 sm:px-10 lg:px-14 text-white"
-          style={{ backgroundColor: "#153BC9" }}
-        >
-          {/* Background Gradient Layer (Mobile: 28.87deg) */}
-          <div
-            className="absolute inset-0 md:hidden pointer-events-none"
-            style={{
-              background:
-                "linear-gradient(28.87deg, #00C045 1.4%, #5C9589 15.55%, #625DC9 39.22%, #6547E2 50.44%, #1F3AC1 86.74%)",
-              backgroundColor: "#153BC9",
-            }}
-          />
-
-          {/* Background Gradient Layer (Desktop: 84.3deg) */}
-          <div
-            className="absolute inset-0 hidden md:block pointer-events-none"
-            style={{
-              background:
-                "linear-gradient(84.3deg, #00C045 -0.95%, #5C9589 13.72%, #625DC9 38.27%, #6547E2 49.91%, #1F3AC1 87.56%)",
-              backgroundColor: "#153BC9",
-            }}
-          />
-
-          {/* Background Pattern Graphic - Desktop (Right side shield pattern) */}
-          <div className="absolute right-0 top-0 bottom-0 w-[51.5%] pointer-events-none select-none overflow-hidden hidden md:block">
+        <div className="relative w-full overflow-hidden isolate py-9 sm:py-11 lg:py-12 px-6 sm:px-10 lg:px-14 bg-white text-white">
+          {/* Background Pattern Graphic - Desktop (Right side shield pattern underneath gradient) */}
+          <div className="absolute right-0 top-0 bottom-0 w-[53%] pointer-events-none select-none overflow-hidden hidden md:block">
             <Image
               src="/cta-pettern.png"
               alt=""
               fill
+              sizes="(max-width: 1024px) 50vw, 764px"
               priority
               className="object-cover object-left"
             />
           </div>
 
-          {/* Background Pattern Graphic - Mobile only */}
-          <div className="absolute right-0 bottom-0 w-[70%] h-[75%] pointer-events-none select-none z-1 md:hidden overflow-hidden">
+          {/* Background Pattern Graphic - Mobile only (underneath gradient) */}
+          <div className="absolute right-0 bottom-0 w-[70%] h-[75%] pointer-events-none select-none md:hidden overflow-hidden">
             <Image
               src="/cta-pettern.png"
               alt=""
               fill
-              className="object-cover object-left-bottom opacity-75"
+              sizes="70vw"
+              className="object-cover object-left-bottom"
             />
           </div>
+
+          {/* Background Gradient Layer (Mobile: 28.87deg) with Multiply blend mode */}
+          <div
+            className="absolute inset-0 md:hidden pointer-events-none mix-blend-multiply"
+            style={{
+              background:
+                "linear-gradient(28.87deg, #00C045 1.4%, #5C9589 15.55%, #625DC9 39.22%, #6547E2 50.44%, #1F3AC1 86.74%)",
+              mixBlendMode: "multiply",
+            }}
+          />
+
+          {/* Background Gradient Layer (Desktop: 84.3deg) with Multiply blend mode */}
+          <div
+            className="absolute inset-0 hidden md:block pointer-events-none mix-blend-multiply"
+            style={{
+              background:
+                "linear-gradient(84.3deg, #00C045 -0.95%, #5C9589 13.72%, #625DC9 38.27%, #6547E2 49.91%, #1F3AC1 87.56%)",
+              mixBlendMode: "multiply",
+            }}
+          />
 
           {/* Inner Content */}
           <div className="relative z-10 flex flex-col items-start max-w-[880px]">

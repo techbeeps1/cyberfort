@@ -20,10 +20,10 @@ export function MeetTheCeo() {
           Meet the CEO
         </h2>
 
-        {/* 2-Column Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-14 items-start">
-          {/* Left Column: Image Box + LinkedIn Button */}
-          <div className="flex flex-col items-start w-full">
+        {/* 2-Column Content (30% picture, 70% text) */}
+        <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 sm:gap-10 lg:gap-14 items-start">
+          {/* Left Column: Image Box + LinkedIn Button (30%) */}
+          <div className="lg:col-span-3 flex flex-col items-start w-full">
             {/* CEO Placeholder Image Box */}
             <div className="relative w-full aspect-[4/3] bg-[#3C3C3C] overflow-hidden flex items-center justify-center">
               {/* Top-left Green Bar */}
@@ -53,8 +53,8 @@ export function MeetTheCeo() {
             </Link>
           </div>
 
-          {/* Right Column: Bio Content & Key Highlights */}
-          <div className="flex flex-col items-start">
+          {/* Right Column: Bio Content & Key Highlights (70%) */}
+          <div className="lg:col-span-7 flex flex-col items-start">
             {/* CEO Name */}
             <h3 className="text-[22px] sm:text-[26px] lg:text-[28px] leading-[30px] sm:leading-[34px] lg:leading-[36px] font-semibold text-white">
               Saeed AlFahim

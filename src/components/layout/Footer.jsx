@@ -20,7 +20,7 @@ export function Footer() {
       <div className="container">
         {/* Main Footer Content */}
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start pt-[60px] pb-8 sm:pb-12 gap-10 lg:gap-16">
-          {/* Brand Logo & Address (Order 3 on mobile, Order 1 on desktop) */}
+          {/* Brand Logo (Order 3 on mobile, Order 1 on desktop) */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left gap-3.5 order-3 md:order-1 pt-2 md:pt-0">
             <Link href="/" className="inline-block" aria-label="CyberFort Home">
               <Image
@@ -31,9 +31,6 @@ export function Footer() {
                 className="h-[46px] sm:h-[54px] w-auto object-contain"
               />
             </Link>
-            <p className="text-[#1A1A1A] text-[13px] sm:text-[14px] leading-[22px] font-normal max-w-[280px] sm:max-w-[320px]">
-              Unit 430, Khalifa Bin Shakbut Street, Abu<br className="sm:hidden" /> Dhabi, United Arab Emirates
-            </p>
           </div>
 
           {/* Links Columns (Order 1 on mobile, Order 2 on desktop) */}
@@ -79,9 +76,9 @@ export function Footer() {
         </div>
 
         {/* Bottom Centered Copyright */}
-        <div className="text-center pt-2 pb-8 sm:pb-12 text-[#8E97C5] text-[14px] font-medium leading-[20px]">
-          <p>© 2026 CyberFort. All rights reserved.</p>
-        </div>
+        <p className="text-center pt-2 pb-8 sm:pb-12 text-[#8E97C5] text-[12px] font-medium leading-[18px]">
+          © 2026 CyberFort. All rights reserved.
+        </p>
       </div>
     </footer>
   );

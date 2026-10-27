@@ -27,7 +27,7 @@ const steps = [
 
 export function TheProcess() {
   return (
-    <section className="w-full bg-[#F7FAFF] py-20 lg:py-28">
+    <section className="w-full py-[70px] lg:py-[200px]">
       <div className="container">
         {/* Section Heading */}
         <h2 className="text-[35px] sm:text-[40px] lg:text-[50px] leading-[42px] sm:leading-[46px] lg:leading-[52px] font-normal text-dark-blue tracking-tight mb-[50px]">
@@ -52,7 +52,7 @@ export function TheProcess() {
               </div>
 
               {/* Step Description */}
-              <p className="text-[16px] lg:text-[18px] leading-[26px] lg:leading-[30px] font-medium text-dark-blue">
+              <p className="leading-[30px] font-medium text-dark-blue">
                 {step.description}
               </p>
             </div>

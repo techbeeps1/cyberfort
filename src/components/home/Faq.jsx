@@ -38,7 +38,7 @@ export function Faq({ className = "" }) {
   };
 
   return (
-    <section className={`w-full bg-[#F7FAFF] pt-2 sm:pt-4 lg:pt-6 pb-4 sm:pb-6 lg:pb-8 ${className}`}>
+    <section className={`w-full bg-[#F7FAFF] pt-[60px] sm:pt-4 lg:pt-6 pb-4 sm:pb-6 lg:pb-8 ${className}`}>
       <div className="w-full max-w-[1190px] mx-auto px-5">
         {/* Section Heading */}
         <h2 className="text-[36px] sm:text-[44px] lg:text-[50px] leading-[44px] sm:leading-[52px] lg:leading-[60px] font-normal text-black text-center mb-6 sm:mb-8 lg:mb-10">
@@ -60,14 +60,13 @@ export function Faq({ className = "" }) {
                   className="w-full flex items-center justify-between p-5 sm:p-6 text-left cursor-pointer focus:outline-none"
                   aria-expanded={isOpen}
                 >
-                  <span className="text-[18px] leading-[28px] text-black font-medium pr-4">
+                  <span className="text-[16px] sm:text-[18px] leading-[24px] sm:leading-[28px] text-black font-medium pr-4">
                     {item.question}
                   </span>
 
                   <svg
-                    className={`w-5 h-5 text-black shrink-0 transition-transform duration-300 ease-in-out ${
-                      isOpen ? "rotate-180" : ""
-                    }`}
+                    className={`w-5 h-5 text-black shrink-0 transition-transform duration-300 ease-in-out ${isOpen ? "rotate-180" : ""
+                      }`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -83,11 +82,10 @@ export function Faq({ className = "" }) {
 
                 {/* Animated Accordion Content using CSS Grid */}
                 <div
-                  className={`grid transition-all duration-300 ease-in-out ${
-                    isOpen
-                      ? "grid-rows-[1fr] opacity-100"
-                      : "grid-rows-[0fr] opacity-0"
-                  }`}
+                  className={`grid transition-all duration-300 ease-in-out ${isOpen
+                    ? "grid-rows-[1fr] opacity-100"
+                    : "grid-rows-[0fr] opacity-0"
+                    }`}
                 >
                   <div className="overflow-hidden">
                     <div className="px-5 sm:px-6 pb-5 sm:pb-6 text-[#4B4D50] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[28px] border-t border-black/5 pt-3">
